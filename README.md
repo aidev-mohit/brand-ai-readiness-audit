@@ -312,7 +312,7 @@ lxml
 Clone the repository:
 
 ```bash
-git clone https://github.com/aidev-mohit/brand-ai-readiness-audit.git
+git clone https://github.com/aidev-mohit/brand-ai-readiness-audit.git 
 cd brand-ai-readiness-audit
 ```
 
