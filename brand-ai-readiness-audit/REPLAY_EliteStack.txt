@@ -1,0 +1,11 @@
+TEST_SITE_URLS: https://stripe.com, https://example.com
+LLM_MODEL: 5.6 Terra Medium / Claude Opus 4.6
+AGENT_HARNESS: Codex / Antigravity IDE
+ENV_SETUP: pip install -r requirements.txt && playwright install chromium
+TEST_STEPS:
+ 1. git clone <repo-url> && cd brand-ai-readiness-audit
+ 2. pip install -r requirements.txt && playwright install chromium
+ 3. (CLI Mode): python3 run_audit.py --url "https://stripe.com" --output report.json
+ 4. (Agent Mode in Codex / IDE): Open project folder and prompt: "Read marketplace.json and run the audit-orchestrator skill on https://stripe.com"
+ 5. Inspect report.json for the merged findings and proactive recommendations JSON
+EXPECTED_OUTPUT: report.json

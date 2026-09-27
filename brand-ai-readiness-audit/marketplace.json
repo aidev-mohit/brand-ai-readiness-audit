@@ -1,0 +1,12 @@
+{
+  "name": "brand-ai-readiness-audit",
+  "version": "1.0.0",
+  "description": "Audits a brand's website for AI-readiness across discoverability, structured data, entity authority, and on-site engagement. Emits a single JSON report with evidence-backed findings and prioritized fixes.",
+  "skills": [
+    { "id": "audit-orchestrator", "path": "skills/audit-orchestrator", "entrypoint": true },
+    { "id": "crawl-render-audit", "path": "skills/crawl-render-audit" },
+    { "id": "structured-data-audit", "path": "skills/structured-data-audit" },
+    { "id": "corroboration-entity-audit", "path": "skills/corroboration-entity-audit" },
+    { "id": "engagement-audit", "path": "skills/engagement-audit" }
+  ]
+}

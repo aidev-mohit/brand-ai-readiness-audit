@@ -1,0 +1,11 @@
+{
+  "site": "https://stripe.com",
+  "error": "'charmap' codec can't decode byte 0x9d in position 275: character maps to <undefined>",
+  "summary": {
+    "total_findings": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0
+  },
+  "findings": []
+}
