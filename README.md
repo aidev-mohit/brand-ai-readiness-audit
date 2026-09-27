@@ -312,7 +312,7 @@ lxml
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/aidev-mohit/brand-ai-readiness-audit.git
 cd brand-ai-readiness-audit
 ```
 
@@ -627,3 +627,4 @@ Built for the Adobe Hackathon.
 ---
 
 ## 📄 License
+NA
