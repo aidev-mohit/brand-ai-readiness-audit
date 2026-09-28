@@ -548,7 +548,7 @@ which documents the intended replay environment, test URLs, setup commands, CLI 
 Typical replay:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/aidev-mohit/brand-ai-readiness-audit
 cd brand-ai-readiness-audit
 pip install -r requirements.txt
 playwright install chromium
